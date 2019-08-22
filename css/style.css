@@ -24,6 +24,7 @@ Author E-mail: naimlasker@gmail.com
 /* Mobile Layout: 320px */
 /* Wide Mobile Layout: 480px */
 /*---------------------------------------------------- */
+
   .skillbar {
     position:relative;
     display:block;
@@ -103,6 +104,7 @@ float: left;
     line-height:28px;
     color:#666;
 }
+
 /*----------------------------------------------------*/
 body {
   line-height: 26px;
@@ -292,11 +294,13 @@ button:focus {
 /*----------------------------------------------------*/
 .header_area {
   position: absolute;
+
   width: 100% !important;
   z-index: 9999;
   background: #ffffff; }
   .header_area .menu_nav {
     width: 100% !important; }
+
   .header_area .navbar {
     background: transparent;
     padding: 0px;
@@ -402,11 +406,13 @@ button:focus {
     .header_area.white_menu .navbar .navbar-brand img {
       display: inline-block; }
       .header_area.white_menu .navbar .navbar-brand img + img {
+
         display: none; } 
         .header_area {
           box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1) !important;
           width: 100%; }
       }
+
   .header_area.white_menu .navbar .nav .nav-item .nav-link {
     color: #fff; }
   .header_area.white_menu.navbar_fixed .main_menu .navbar .navbar-brand img {
@@ -444,6 +450,7 @@ button:focus {
         .home_banner_area .banner_inner .home_right_img {
           display: none; } 
       }
+
     .home_banner_area .banner_inner .col-lg-7 {
       vertical-align: middle;
       align-self: center; }
@@ -2620,12 +2627,15 @@ h6 {
   .single-brand-item:hover {
     border: 1px solid transparent;
     box-shadow: 0px 8px 30px rgba(118, 85, 225, 0.15); }
+
     /* .single-brand-item:hover img {
+
       filter: brightness(0%);
       -o-filter: brightness(0%);
       -ms-filter: brightness(0%);
       -moz-filter: brightness(0%);
       -webkit-filter: brightness(0%); } */
+
 
 .client-info {
   padding: 25px 30px;
@@ -3000,7 +3010,9 @@ h6 {
     margin-bottom: 23px; }
 
   .header_area .navbar {
+
     background: #fff; }
+
 
   .navbar-toggler[aria-expanded="false"] span:nth-child(2) {
     opacity: 1; }
@@ -3051,6 +3063,7 @@ h6 {
     border-radius: 0px;
     color: #333; }
 
+
   .header_area .navbar .search {
     margin-left: 0px; }
 
@@ -3072,6 +3085,7 @@ h6 {
   .header_area.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
     line-height: 40px;
     color: #333; }
+
 
   .header_area.white_menu.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
     line-height: 40px;
