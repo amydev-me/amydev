@@ -1,17 +1,5 @@
-/*----------------------------------------------------
-@File: Default Styles
-@Author: SPONDON IT
 
-This file contains the styling for the actual theme, this
-is the file you need to edit to change the look of the
-theme.
----------------------------------------------------- */
-/*=====================================================================
-@Template Name: HostHub Construction 
-@Developed By: Naim Lasker
-Author E-mail: naimlasker@gmail.com
 
-=====================================================================*/
 /*----------------------------------------------------*/
 /*font Variables*/
 /*Color Variables*/
@@ -436,7 +424,6 @@ button:focus {
   /* background: url(../img/banner/home-banner.png) no-repeat top center; */
   background-position: center;
   background-size: cover; }
-<<<<<<< HEAD
   .home_banner_area .banner_inner {
     width: 100%; }
     .home_banner_area .banner_inner .home_right_img {
@@ -444,22 +431,17 @@ button:focus {
       .home_banner_area .banner_inner .home_right_img img{
         width: auto;
     height: calc(100vh - 50px);
-=======
-  /* .home_banner_area .banner_inner {
-    width: 100%; } */
+      }
+ 
       .home_banner_area .banner_inner .home_right_img {
         padding-top: 50px; 
->>>>>>> 2f2673e0612c0e7b3def44baf6fbdd2626cd22c5
       }
       /* @media (max-width: 1480px) {
         .home_banner_area .banner_inner .home_right_img img {
           max-width: 100%;
-<<<<<<< HEAD
+
           height: auto; } } */
-=======
-          height: auto; } 
-      } */
->>>>>>> 2f2673e0612c0e7b3def44baf6fbdd2626cd22c5
+      
       @media (max-width: 991px) {
         .home_banner_area .banner_inner .home_right_img {
           display: none; } 
@@ -3420,3 +3402,8 @@ h6 {
 /*---------------------------------------------------- */
 
 /*# sourceMappingURL=style.css.map */
+
+
+.nav-item:active {
+  color: red !important;
+}
