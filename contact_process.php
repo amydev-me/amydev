@@ -1,5 +1,5 @@
 <?php
-	return $_POST;
+
 
     $to = "ampyaephyonaing@gmail.com";
     $from = $_POST['email'];
