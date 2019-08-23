@@ -37,8 +37,13 @@
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
 						<ul class="nav navbar-nav menu_nav justify-content-end">
-							<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
-							<!-- <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+							<li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+							<li class="nav-item"><a class="nav-link" href="#aboutme">About</a></li>
+							<li class="nav-item"><a class="nav-link" href="#skill_group">Skills</a></li>
+							<li class="nav-item"><a class="nav-link" href="#portfolio">Project</a></li>
+							<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+
+							<!-- 
 							<li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
 							<li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
 							<li class="nav-item submenu dropdown">
@@ -57,7 +62,7 @@
 									<li class="nav-item"><a class="nav-link" href="single-blog.html">Blog Details</a></li>
 								</ul>
 							</li> -->
-							<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+							<!-- <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li> -->
 						</ul>
 					</div>
 				</div>
@@ -67,7 +72,7 @@
 	<!--================ End Header Area =================-->
 
 	<!--================ Start Home Banner Area =================-->
-	<section class="home_banner_area">
+	<section class="home_banner_area" id="home">
 		<div class="banner_inner">
 			<div class="container">
 				<div class="row">
@@ -95,6 +100,7 @@
 	<!--================ End Home Banner Area =================-->
 
 	<!--================ Start About Us Area =================-->
+	<div  id="aboutme"></div>
 	<section  class="about_area section_gap">
 		<div class="container">
 			<div id="skills"  class="row justify-content-start align-items-center">
@@ -211,14 +217,14 @@
 				</div>
 			</div>
 		</div>
+		<div  id="skill_group"></div>
+
 	</section>
 	<!--================ End About Us Area =================-->
 
 	<!--================ Srart Brand Area =================-->
 	<section class="brand_area section_gap_bottom">
 		<div class="container">
-				
-
 			<div class="row justify-content-center">
 					<div class="row justify-content-center">
 							<div class="col-lg-8 text-center">
@@ -293,6 +299,8 @@
 					</div>
 			</div>
 		</div>
+		<div  id="portfolio"></div>
+
 	</section>
 	<!--================ End Brand Area =================-->
 
@@ -541,68 +549,76 @@
 	</div> -->
 	<!--================ End Testimonial Area =================-->
 
-	<!--================ Start Newsletter Area =================-->
-	<!-- <section class="newsletter_area">
-		<div class="container">
-			<div class="row justify-content-center align-items-center">
+ <!--================Contact Area =================-->
+ <section class="contact_area section_gap" id="contact">
+        <div class="container" style="max-width: 1200px;">
+			<div class="row">
 				<div class="col-lg-12">
-					<div class="subscription_box text-center">
-						<h2 class="text-uppercase text-white">get update from anywhere</h2>
-						<p class="text-white">
-							Bearing Void gathering light light his eavening unto dont afraid. 
-						</p>
-						<div class="subcribe-form" id="mc_embed_signup">
-							<form target="_blank" novalidate="true" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="subscription relative">
-								<input name="EMAIL" placeholder="Email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email address'" required="" type="email">
-								<div style="position: absolute; left: -5000px;">
-									<input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
-								</div>
-								<button class="primary-btn hover d-inline">Get Started</button>
-								<div class="info"></div>
-							</form>
-						</div>
+					<div class="main_title text-center">
+						<h2>Contact me </h2>
+						<p>If you have any questions, please don’t hesitate to contact using form below…</p>
 					</div>
 				</div>
 			</div>
-		</div>
-	</section> -->
-	<!--================ End Newsletter Area =================-->
-
+            <div class="row">
+                <div class="col-lg-12">
+                    <form class="contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate" style="max-width: 500px;margin: 0 auto;">
+						<div class="form-group">
+							<input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
+						</div>
+						<div class="form-group">
+							<input type="email" class="form-control" id="email" name="email" placeholder="Enter email address">
+						</div>
+						
+						<div class="form-group">
+								<textarea class="form-control" name="message" id="message" rows="1" placeholder="Enter Message"></textarea>
+							</div>
+						<div class="text-right">
+							<button type="submit" value="submit" class="primary_btn">
+								<span>Send Message</span>
+							</button>
+						</div>
+                    </form>
+                </div>
+            </div>
+            <!-- <div id="mapBox" class="mapBox" 
+                data-lat="40.701083" 
+                data-lon="-74.1522848" 
+                data-zoom="13" 
+                data-info="PO Box CT16122 Collins Street West, Victoria 8007, Australia."
+                data-mlat="40.701083"
+                data-mlon="-74.1522848">
+            </div> -->
+        </div>
+    </section>
 	<!--================Footer Area =================-->
-	<footer class="footer_area">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-lg-12">
-					<div class="footer_top flex-column">
-						<div class="footer_logo">
-							<a href="#">
-								<img src="img/logo.png" width="100" height="auto" alt="">
-							</a>
-							<h4>Follow Me</h4>
-						</div>
-						<div class="footer_social">
-							<a href="https://www.linkedin.com/in/amydev"><i class="fa fa-linkedin"></i></a>
-							<a href="https://github.com/amydev-me"><i class="fa fa-github"></i></a>
+		<footer class="footer_area" style="padding: 25px 0px;background-color: #e7e7e7e7">
+			<div class="container">
+					
+				<div class="row justify-content-center">
+						
+					<div class="col-lg-12">
+						<div class="footer_top flex-column">
+							<div class="footer_logo">
+								<h4>Follow Me</h4>
+							</div>
+							<div class="footer_social">
+								<a href="https://www.linkedin.com/in/amydev"><i class="fa fa-linkedin"></i></a>
+								<a href="https://github.com/amydev-me"><i class="fa fa-github"></i></a>
+							</div>
 						</div>
 					</div>
 				</div>
+				<div class="row footer_bottom justify-content-center">
+					<p class="col-lg-8 col-sm-12 footer-text">
+						Amy &copy;<script>document.write(new Date().getFullYear());</script>
+					</p>
+				</div>
 			</div>
-			<div class="row footer_bottom justify-content-center">
-				<p class="col-lg-8 col-sm-12 footer-text">
-					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> 
-<!-- All rights reserved | This template is made with -->
- <!-- <i class="fa fa-heart-o" aria-hidden="true"></i> by  -->
- <!-- <a href="https://colorlib.com" target="_blank">Colorlib
-</a> -->
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-			</div>
-		</div>
-	</footer>
+		</footer>
 	<!--================End Footer Area =================-->
 
 	<!-- Optional JavaScript -->
-	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<script src="js/jquery-3.2.1.min.js"></script>
 	<script src="js/popper.js"></script>
@@ -615,9 +631,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script>
 	<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
 	<script src="js/jquery.ajaxchimp.min.js"></script>
 	<script src="js/mail-script.js"></script>
-	<!--gmaps Js-->
-	<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
-	<script src="js/gmaps.min.js"></script> -->
 	<script src="js/theme.js"></script>
 </body>
 </html>
